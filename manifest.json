@@ -1,0 +1,19 @@
+{
+    "name": "Chrome Outline Viewer",
+    "version": "1.0",
+    "description": "This extension shows all the outline of the page.",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ]
+}

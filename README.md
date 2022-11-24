@@ -1,1 +1,1 @@
-# chrome-outline-viewer-extention
+# chrome-outline-viewer-extension
